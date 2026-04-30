@@ -62,4 +62,4 @@
 
   - ✉️ **shbosika@gmail.com**
   - 💼 [linkedin.com/in/shota-bosikashvili](https://linkedin.com/in/shota-bosikashvili)
-  - 🌐 [shotabosikashvili.vercel.app](https://shotabosikashvili.vercel.app) — full portfolio with case studies & web resume
+  - 🌐 [shotabosikashvili.vercel.app](https://portfolio-kappa-five-m04vuctlxj.vercel.app/) — full portfolio with case studies & web resume
