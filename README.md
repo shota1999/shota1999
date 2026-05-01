@@ -52,6 +52,6 @@ AI chess coaching platform with voice feedback and Stockfish analysis.
 
 ## 📫 Contact
 
-✉️ shbosikashvili@gmail.com  
+✉️ shbosika@gmail.com  
 💼 https://linkedin.com/in/shota-bosikashvili  
-🌐 https://shotabosikashvili.vercel.app
+🌐 https://portfolio-kappa-five-m04vuctlxj.vercel.app/
