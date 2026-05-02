@@ -102,4 +102,4 @@ AI chess coaching SaaS with Stockfish analysis, personalized feedback, voice exp
 
 Email: shbosika@gmail.com  
 LinkedIn: https://linkedin.com/in/shota-bosikashvili  
-Portfolio: https://portfolio-kappa-five-m04vuctlxj.vercel.app/
+Portfolio: https://shotabosikashvili.vercel.app/
