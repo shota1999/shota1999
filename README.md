@@ -1,6 +1,6 @@
 # Shota Bosikashvili
 
-Senior Full-Stack Engineer building production-style SaaS, marketplace, and AI product systems with React, Next.js, TypeScript, Node.js, PostgreSQL, Redis, and Docker.
+ Full-Stack Engineer building production-style SaaS, marketplace, and AI product systems with React, Next.js, TypeScript, Node.js, PostgreSQL, Redis, and Docker.
 
 Based in Tbilisi, Georgia · Remote-first · GMT+4 with strong Europe/EMEA overlap  
 Open to senior full-stack, product engineering, and React/Next.js TypeScript roles with remote-first teams.
