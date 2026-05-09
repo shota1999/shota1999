@@ -23,7 +23,7 @@ I focus on end-to-end product engineering where frontend quality meets backend r
 
 ## Featured Projects
 
-**Rebatik — Cashback Marketplace with Affiliate Tracking**                                                    
+###Rebatik — Cashback Marketplace with Affiliate Tracking                                                 
                                                                                                                 
   Cashback marketplace with reward flows, withdrawals, referrals, transaction history, and a Chrome extension   
   for one-click activation at checkout.                                                                         
