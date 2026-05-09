@@ -23,33 +23,28 @@ I focus on end-to-end product engineering where frontend quality meets backend r
 
 ## Featured Projects
 
-# Rebatik — Cashback Marketplace                                                                              
-                                                   
-  Cashback marketplace with affiliate tracking — reward flows, withdrawals, referrals, transaction history, and 
-  a Chrome extension for one-click activation at checkout.                                                      
+**Rebatik — Cashback Marketplace with Affiliate Tracking**                                                    
                                                                                                                 
-  ## What I built                                                                                               
+  Cashback marketplace with reward flows, withdrawals, referrals, transaction history, and a Chrome extension   
+  for one-click activation at checkout.                                                                         
+                                                                                                                
+  **What I built**                                                                                              
                                                                                                                 
   - Built cashback dashboard flows for available balance, pending rewards, withdrawals, referrals, and
-  transaction history using **Next.js**, **TypeScript**, and **TanStack Query**.
-  - Designed a double-entry ledger (CREDIT/DEBIT, SQL-level status rules, idempotency keys) and integrated
-  **Admitad** affiliate tracking for **AliExpress, Alibaba, Western Union, Aviasales, and Kaspersky** — taking
-  clicks through to confirmed cashback via postback ingestion and daily reconciliation.
-  - Shipped a **Manifest v3 Chrome extension** that auto-detects merchant pages, shows a floating cashback
-  activation banner with live rates, and auto-applies coupon codes at checkout via merchant-specific DOM
-  selectors.
-  - Built a **Hono** API on **Drizzle/PostgreSQL** with **Redis-backed BullMQ** workers for affiliate postback
-  ingestion, payouts, and **Socket.IO** live balance updates, covered by 180+ unit, integration, and E2E tests.
+  transaction history.
+  - Designed a double-entry ledger with CREDIT/DEBIT rows, SQL-level status rules, and idempotency keys to
+  prevent duplicate affiliate credits.
+  - Integrated Admitad affiliate tracking for AliExpress, Alibaba, Western Union, Aviasales, and Kaspersky with
+  click attribution, postback ingestion, and daily reconciliation.
+  - Built a Hono API on Drizzle/PostgreSQL with Redis-backed BullMQ workers for postback ingestion and payouts,
+  plus Socket.IO live balance updates and 180+ automated tests.
+  - Shipped a Manifest v3 Chrome extension that auto-detects merchant pages, shows live cashback rates, and
+  auto-applies coupon codes at checkout.
 
-  ## Stack
+  **Stack:** Next.js, TypeScript, TanStack Query, Hono, Drizzle ORM, PostgreSQL, Redis, BullMQ, Socket.IO,
+  Docker, Vitest, Playwright
 
-  **Frontend** — Next.js · TypeScript · TanStack Query
-  **Backend** — Hono · Drizzle ORM · PostgreSQL · Redis · BullMQ · Socket.IO
-  **Auth & Payments** — Better Auth · Stripe · Resend
-  **Extension** — Manifest v3 · service worker + content scripts
-  **Affiliate** — Admitad (AliExpress, Alibaba, Western Union, Aviasales, Kaspersky)
-  **Testing** — Vitest · Playwright (180+ tests)
-  **Infra** — Docker
+  🔗 https://rebatik.com
 
 ---
 
