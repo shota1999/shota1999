@@ -23,17 +23,33 @@ I focus on end-to-end product engineering where frontend quality meets backend r
 
 ## Featured Projects
 
-### Rebatik — Cashback Marketplace
+# Rebatik — Cashback Marketplace                                                                              
+                                                   
+  Cashback marketplace with affiliate tracking — reward flows, withdrawals, referrals, transaction history, and 
+  a Chrome extension for one-click activation at checkout.                                                      
+                                                                                                                
+  ## What I built                                                                                               
+                                                                                                                
+  - Built cashback dashboard flows for available balance, pending rewards, withdrawals, referrals, and
+  transaction history using **Next.js**, **TypeScript**, and **TanStack Query**.
+  - Designed a double-entry ledger (CREDIT/DEBIT, SQL-level status rules, idempotency keys) and integrated
+  **Admitad** affiliate tracking for **AliExpress, Alibaba, Western Union, Aviasales, and Kaspersky** — taking
+  clicks through to confirmed cashback via postback ingestion and daily reconciliation.
+  - Shipped a **Manifest v3 Chrome extension** that auto-detects merchant pages, shows a floating cashback
+  activation banner with live rates, and auto-applies coupon codes at checkout via merchant-specific DOM
+  selectors.
+  - Built a **Hono** API on **Drizzle/PostgreSQL** with **Redis-backed BullMQ** workers for affiliate postback
+  ingestion, payouts, and **Socket.IO** live balance updates, covered by 180+ unit, integration, and E2E tests.
 
-Cashback marketplace with affiliate tracking, reward flows, withdrawals, referrals, and transaction history.
+  ## Stack
 
-**What I built**
-- Built cashback dashboard flows for available balance, pending rewards, withdrawals, referrals, and transaction history using Next.js, TypeScript, and RTK Query.
-- Designed a double-entry ledger where balances are computed from CREDIT/DEBIT transactions, with SQL-level status rules and idempotency keys to prevent duplicate affiliate credits.
-- Integrated AliExpress cashback tracking via Admitad, including click attribution, reward status updates, idempotent postback handling, and reconciliation checks.
-- Improved reliability with Redis rate limiting, CSRF protection, Dockerized production builds, and automated tests across unit, integration, and E2E workflows.
-
-**Stack:** Next.js, TypeScript, PostgreSQL, Prisma, Redis, RTK Query, Docker, Playwright, Jest
+  **Frontend** — Next.js · TypeScript · TanStack Query
+  **Backend** — Hono · Drizzle ORM · PostgreSQL · Redis · BullMQ · Socket.IO
+  **Auth & Payments** — Better Auth · Stripe · Resend
+  **Extension** — Manifest v3 · service worker + content scripts
+  **Affiliate** — Admitad (AliExpress, Alibaba, Western Union, Aviasales, Kaspersky)
+  **Testing** — Vitest · Playwright (180+ tests)
+  **Infra** — Docker
 
 ---
 
